@@ -1,6 +1,6 @@
 @charset "utf-8";
 /*Ubuntu*/
-@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,600');
 
 /*나눔바른고딕*/
 @font-face {
@@ -106,6 +106,7 @@ body{font-family: 'Ubuntu',nanum,sans-serif; font-size:16px; color: #403e3f; lin
 .navbar-nav>li:nth-child(2)>a{box-shadow: 0 -0.5px 4px rgba(0,0,0,0.4);}
 .navbar-nav>li:nth-child(3)>a{box-shadow: 0 0.5px 4px rgba(0,0,0,0.4);}
 .navbar-nav>li:nth-child(4)>a{box-shadow: 0 1px 4px rgba(0,0,0,0.35);}
+
 .header .text{position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); line-height: 1;}
 .header .text h1{font-size:35vw; line-height: 0.8; color: rgba(255,255,255,0.9);}
 .header .text h2{font-size:21.5vw; color: rgba(255,255,255,0.8);}
@@ -235,7 +236,6 @@ body{font-family: 'Ubuntu',nanum,sans-serif; font-size:16px; color: #403e3f; lin
     .header .text h1{font-size: 17vw; float: left;}
     .header .text h2{font-size: 10.5vw; line-height: 1.7; float: right;}
     .header .text h3{line-height: 0.7; padding-bottom: 36px;}
-    .header .text h4{font-weight: 500;}
 }
 
 @media screen and (min-width:1200px){
@@ -260,12 +260,14 @@ body{font-family: 'Ubuntu',nanum,sans-serif; font-size:16px; color: #403e3f; lin
     .in{width:1200px; margin-left:auto; margin-right:auto;}
     .navbar-nav>li{float:left;margin-left:35px; width:80px;}
     .in{height:100%;}
-    .header .text{letter-spacing:0.1rem; line-height: 0; width: 1200px;}
+    .header .text{letter-spacing:0.1rem; line-height: 0; width: 1200px; background: url(../images/header_img.png) no-repeat left center; height: 560px;}
 /*    .header .text h1::before{content:''; display:block; height:9rem; width:5px; background-color:rgba(255,255,255,.75); position:absolute; top:50%; right:450px; transform:translateY(-50%);} */
-    .header .text h1{font-size: 13vw; float: right; 1padding-left: 15vw;}
-    .header .text h2{font-size: 8vw; float: right;}
-    .header .text h3{float: right; font-size: 8vw; line-height: 0.3; padding-bottom: 60px; margin-bottom: 50px;}
-    .header .text h4{font-weight: 500; float: right; font-size: 6vw; padding-right: 23px;}
+    .header .text h1{font-size: 130px; float: left; 1padding-left: 15vw; line-height: 0.2;}
+    .header .text h2{font-size: 79px; float: left; line-height: 1;}
+    .header .text h3{float: left; font-size: 97px; line-height: 1.5; padding-bottom: 15px; margin-bottom: 95px; margin-top: -33px;}
+    .header .text h4{float: left; font-size: 72px; padding-right: 23px; margin-left: 665px; margin-top: -45px;}
+    .header .text img{display: none;}
+    .header .text_box{padding: 125px 0 0 620px;}
 
     
     /*about me*/
